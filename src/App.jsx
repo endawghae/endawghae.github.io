@@ -7,14 +7,14 @@ import {
     Route,
 } from "react-router-dom"
 import Home from './pages'
-import Countries from './pages/countries'
+//import Countries from './pages/countries'
 
 function App() {
     return (
         <Router>
             <Routes>
                 <Route exact path="/" element={<Home />} />
-                <Route path="/countries" element={<Countries />} />
+                
             </Routes>
         </Router>
     );
