@@ -5,9 +5,8 @@ import {
     BrowserRouter as Router,
     Routes,
     Route,
-} from "react-router-dom"
-import Home from './pages'
-import Countries from './pages/countries'
+} from "react-router-dom";
+import countries from './pages/countries'
 
 function App() {
     return (
