@@ -19,5 +19,7 @@ function App() {
         </Router>
     );
 }
+ 
+export default App;
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App />)
+//ReactDOM.createRoot(document.getElementById('root')).render(<App />)

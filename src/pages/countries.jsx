@@ -36,7 +36,7 @@ const CountryList = ({ countryList, setCountries }) => {
     )
 }
 
-const Countries = () => {
+const App = () => {
     const [country, setCountries] = useState("")
     const [countryList, setCountryList] = useState([])
 
@@ -66,4 +66,4 @@ const Countries = () => {
     )
 }
 
-export default Countries
+export default App
