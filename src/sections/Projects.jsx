@@ -4,7 +4,7 @@ const projects = [
   {
     title: "Bozo Brawl",
     description:
-      "A year-long collaborative effort with the Game Development and Arts Club at UC Davis to create a modular fighting game that allows supports easy, code-free character creation",
+      "A year-long collaborative effort with the Game Development and Arts Club at UC Davis to create a modular fighting game that supports easy, code-free character creation",
     image: "/projects/project1.png",
     animated: "/projects/project1.webp",
     tags: ["Unity", "C#", "WebGL", "Software Development", "CI/CD"],
