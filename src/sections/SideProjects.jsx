@@ -1,7 +1,7 @@
 const sideProjects = [
   {
     title: "Multiplayer Test",
-    image: "/sideProjects/project1.png",
+    image: "/sideProjects/project2.png",
     animated: "/sideProjects/project2.webp",
     tags: ["Unity", "C#", "WebGL", "Software Development", "Netcode"]
   },
@@ -45,7 +45,7 @@ export const SideProjects = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover group-hover:opacity-0 transition-opacity duration-300"
+                  className="w-full h-full object-cover group-hover:opacity-0 transition-opacity duration-300 hidden lg:block"
                 />
                 <div
                   className="absolute inset-0 
@@ -53,11 +53,19 @@ export const SideProjects = () => {
                  to-transparent opacity-60"
                 />
                 {/* Overlay */}
-                <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden lg:block">
                   <img
                     src={project.animated}
                     alt={project.title}
-                    className="w-full h-full object-cover group-hover:opacity-100 transition-opacity duration-300"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                {/* Mobile Version */}
+                <div className="absolute inset-0 flex items-center justify-center gap-4 lg:hidden">
+                  <img
+                    src={project.animated}
+                    alt={project.title}
+                    className="w-full h-full object-cover"
                   />
                 </div>
               </div>
